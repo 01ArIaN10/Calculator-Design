@@ -4,6 +4,6 @@
 * Telegram => ArianProgrammer
 
 # Description
-*Simple design for Calculator
-*HTML & CSS
-*I hope it is useful :)
+* Simple design for Calculator
+* HTML & CSS
+* I hope it is useful :)
