@@ -5,7 +5,9 @@ function evelate(fn){
 function sub(content){
     html += content
     if (Clear){
-        html = content
+        if (content != '+' && content != '-' && content != '×' && content != '÷'){
+            html = content;
+        }
         disp.style.paddingTop = '2rem';
         disp.style.fontSize = '20px';
         Clear = false
