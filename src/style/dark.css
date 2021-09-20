@@ -1,0 +1,20 @@
+body {
+    background-color: #313131;
+}
+.btn {
+    background-color: #52c9dd;
+    color: #000;
+}
+#theam:hover, .btn:hover {
+    background-color: #e8e8e8;
+    color: #000;
+}
+.num, #disp, #theam {
+    background-color: #202336;
+    color: #d5e7fd;
+}
+
+.main {
+    background-color: #191b28;
+    box-shadow: 0 0 40px #ccc;
+}

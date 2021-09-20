@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Calculator</title>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" type="text/css" href="style/style.css">
+        <link rel="stylesheet" id='Theam' type="text/css" href="style/light.css">
+		<link rel="icon" type="icon/svg" href="favicon.svg">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    </head>
+    <body>
+        <div id='theam' onclick="ChangeTheam()">
+            <i id='iconTheam' class='material-icons'>dark_mode</i>
+        </div>
+        <div class="main">
+            <div id="disp"></div>
+            <div class="div_btn">
+                <button class="btn" onclick="sub(this.textContent)">CE</button>
+                <button class="btn" onclick="sub(this.textContent)">(</button>
+                <button class="btn" onclick="sub(this.textContent)">)</button>
+                <button class="btn" onclick="sub(this.textContent)">÷</button>
+                <br>
+                <button class="btn num" onclick="sub(this.textContent)" >7</button>
+                <button class="btn num" onclick="sub(this.textContent)" >8</button>
+                <button class="btn num" onclick="sub(this.textContent)">9</button>
+                <button class="btn" onclick="sub(this.textContent)">×</button>
+                <br>
+                <button class="btn num" onclick="sub(this.textContent)">4</button>
+                <button class="btn num" onclick="sub(this.textContent)">5</button>
+                <button class="btn num" onclick="sub(this.textContent)">6</button>
+                <button class="btn" onclick="sub(this.textContent)">-</button>
+                <br>
+                <button class="btn num" onclick="sub(this.textContent)">1</button>
+                <button class="btn num" onclick="sub(this.textContent)">2</button>
+                <button class="btn num" onclick="sub(this.textContent)">3</button>
+                <button class="btn" onclick="sub(this.textContent)">+</button>
+                <br>
+                <button class="btn num" onclick="sub(this.textContent)">0</button>
+                <button class="btn num" onclick="sub(this.textContent)">.</button>
+                <button class="btn" id="solve" onclick="sub(this.textContent)">=</button>
+                <script src='script/script.js'></script>
+            </div>
+        </div>
+    </body>
+</html>
